@@ -1,0 +1,2 @@
+1. The bug was that both num1 and num2 are string, which in addition in JS just concatenates them.
+2. The way I fixed it was by converting num1 and num2 to numbers, so it wouldnt be two strings getting concatenated together.
